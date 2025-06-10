@@ -1,3 +1,6 @@
+import sys
+import voltesv.gulles
+
 choice = 0
 while choice != 6:
     print("-------------------------------------------")
@@ -21,13 +24,14 @@ while choice != 6:
             pass
         case 2: # TODO: Create a class and import your module here
             pass
-        case 3: # TODO: Create a class and import your module here
-            pass
+        case 3: 
+            voltesv.gulles.Gulles().menu()
         case 4: # TODO: Create a class and import your module here
             pass
         case 5: # TODO: Create a class and import your module here
             pass
-        case 6: # TODO: Handle program exit if needed
-            pass
-        case _: # TODO: Handle invalid input
-            pass
+        case 6: 
+            print("Exiting program. Goodbye!")
+            sys.exit()
+        case _:
+            print("Invalid choice. Please select a number from 1 to 6.")
