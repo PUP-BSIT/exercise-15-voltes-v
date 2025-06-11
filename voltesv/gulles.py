@@ -28,6 +28,7 @@ class Gulles:
             print("4. Hobby")
             print("5. Favorite Food")
             print("6. Back to VoltesV Main Menu")
+            print("----------------------------")
             choice = input("Enter your choice: ")
 
             if choice == "1":
