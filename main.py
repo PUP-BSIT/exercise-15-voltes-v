@@ -34,7 +34,6 @@ while choice != 6:
             voltesv.morales.Morales().menu()
         case 5:
             voltesv.pineda.Pineda().menu()
-            pass
         case 6:
             print("Exiting program. Goodbye!")
             sys.exit()
