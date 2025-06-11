@@ -5,7 +5,7 @@ import voltesv.morales
 choice = 0
 while choice != 6:
     print("-------------------------------------------")
-    print("            Voltes V Main Menu             ") 
+    print("            Voltes V Main Menu             ")
     print("-------------------------------------------")
     print("1. John Cris Caculitan ")
     print("2. Precious Hannah Corpus ")
@@ -23,15 +23,15 @@ while choice != 6:
     match choice:
         case 1: # TODO: Create a class and import your module here
             pass
-        case 2: # TODO: Create a class and import your module here
-            pass
-        case 3: 
+        case 2:
+            voltesv.gulles.Corpus().menu()
+        case 3:
             voltesv.gulles.Gulles().menu()
-        case 4: 
+        case 4:
             voltesv.morales.Morales().menu()
         case 5: # TODO: Create a class and import your module here
             pass
-        case 6: 
+        case 6:
             print("Exiting program. Goodbye!")
             sys.exit()
         case _:
