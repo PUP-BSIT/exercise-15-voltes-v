@@ -2,6 +2,7 @@ import sys
 import voltesv.gulles
 import voltesv.morales
 import voltesv.caculitan
+import voltesv.pineda
 
 choice = 0
 while choice != 6:
@@ -30,7 +31,8 @@ while choice != 6:
             voltesv.gulles.Gulles().menu()
         case 4: 
             voltesv.morales.Morales().menu()
-        case 5: # TODO: Create a class and import your module here
+        case 5: 
+            voltesv.pineda.Pineda().menu()
             pass
         case 6: 
             print("Exiting program. Goodbye!")
