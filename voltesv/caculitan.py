@@ -1,8 +1,8 @@
-class Morales:
+class Caculitan:
     def __init__(self):
-        self.name = "Woman Daphne Morales"
-        self.age = 22
-        self.dream = "to have an eight-hour sleep"
+        self.name = "John Cris Caculitan"
+        self.age = 20
+        self.dream = "Successful Man"
 
     def greet(self):
         print(f"\nHello, I'm {self.name}!")
@@ -11,17 +11,17 @@ class Morales:
         print(f"\nMy age is {self.age}")
 
     def display_dream(self):
-        print(f"\nMy dream is {self.dream}.")
+        print(f"\nMy dream is to be a {self.dream}.")
 
     def hobby(self):
-        print(f"\nI enjoy sleeping.")
+        print(f"\nI enjoy playing guitar.")
 
     def favorite_food(self):
-        print(f"\nMy favorite food is mochi.")
+        print(f"\nMy favorite food is egg and hi-ho.")
 
     def menu(self):
         while True:
-            print("\n--- Morales's Menu ---")
+            print("\n--- Caculitan's Menu ---")
             print("1. Greet")
             print("2. Age")
             print("3. Dream")

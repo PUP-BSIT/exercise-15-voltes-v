@@ -1,6 +1,7 @@
 import sys
 import voltesv.gulles
 import voltesv.morales
+import voltesv.caculitan
 
 choice = 0
 while choice != 6:
@@ -21,8 +22,8 @@ while choice != 6:
     print("-------------------------------------------")
 
     match choice:
-        case 1: # TODO: Create a class and import your module here
-            pass
+        case 1: 
+            voltesv.caculitan.Caculitan().menu()
         case 2: # TODO: Create a class and import your module here
             pass
         case 3: 
